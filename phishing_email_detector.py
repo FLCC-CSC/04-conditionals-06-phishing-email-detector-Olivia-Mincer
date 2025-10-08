@@ -15,7 +15,9 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-email_subject = input("Enter the email subject line: ").lower()
+original_email = input("Enter the email subject line: ")
+
+email_subject = original_email.lower()
 
 print("SECURITY ASSESSMENT:")
 
@@ -32,7 +34,7 @@ else:
     print("No phishing indicators detected.")
 
 print("------------------------")
-print(f"Analyzed subject: {email_subject}")
+print(f"Analyzed subject: {original_email}")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 

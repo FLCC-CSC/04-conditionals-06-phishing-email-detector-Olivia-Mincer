@@ -19,7 +19,7 @@ original_email = input("Enter the email subject line: ")
 
 email_subject = original_email.lower()
 
-print("SECURITY ASSESSMENT:")
+print("\nSECURITY ASSESSMENT:")
 
 if "urgent" in email_subject or "immediate action required" in email_subject:
     print("HIGH RISK: Possible phishing attempt.")
@@ -34,7 +34,7 @@ else:
     print("No phishing indicators detected.")
 
 print("------------------------")
-print(f"Analyzed subject: {original_email}")
+print(f'Analyzed subject: "{original_email}"')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
